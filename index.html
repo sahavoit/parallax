@@ -1,0 +1,89 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Parallax</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		<meta name="viewport" content="width=device-width">
+
+		
+
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+
+	
+		<div class="wrapper">
+			
+			<div class="page">
+				<div class="parallax">
+					<ul class="parallax_list">
+						<li data-depth="0.10" >
+							<div class="parallax_bg"></div>
+						</li>
+						<li data depth="0.15">
+							<div class="parallax_rope parallax_rope1">
+								<div class="parallax__element parallax__element1"><span></span></div>
+								<div class="parallax__element parallax__element2"><span></span></div>
+								<div class="parallax__element parallax__element3"><span></span></div>
+								<img src="img/rope.png" alt="">
+							</div>
+						</li>
+						<li data-depth="0.30">
+							<div class="parallax_rope parallax_rope2">
+								<div class="parallax__element parallax__element3"><span></span></div>
+								<div class="parallax__element parallax__element4"><span></span></div>
+								<img src="img/rope.png" alt="">
+							</div>
+						</li>
+						<li data-depth="0.60">
+							<div class="parallax_rope parallax_rope3">
+								<div class="parallax__element parallax__element6"><span></span></div>
+								<div class="parallax__element parallax__element7"><span></span></div>
+								<div class="parallax__element parallax__element8"><span></span></div>
+								<img src="img/rope.png" alt="">
+							</div>
+						</li>
+						<li data-depth="0.30">
+							<div class="parallax___wave parallax__wave__1"></div>
+						</li>
+						<li data-depth="0.40">
+							<div class="parallax___wave parallax__wave__2"></div>
+						</li>
+						<li data-depth="0.50">
+							<div class="parallax___wave parallax__wave__3"></div>
+						</li>
+						<li data-depth="0.60">
+							<div class="parallax__litehouse"></div>
+						</li>
+						<li data-depth="0.60">
+							<div class="parallax___wave parallax__wave__4"></div>
+						</li>
+						<li data-depth="0.80">
+							<div class="parallax___wave parallax__wave__5"></div>
+						</li>
+						<li data-depth="1.00">
+							<div class="parallax___wave parallax__wave__6"></div>
+						</li>
+					</ul>
+				</div>
+				<div class="content"></div>
+			</div>
+			
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+			<script language="javascript" type="text/javascript" src="js/jquery.parallax.js"></script>
+			<script language="javascript" type="text/javascript" src="js/script.js"></script>
+		
+
+		</div>
+		
+	</body>
+</html>
